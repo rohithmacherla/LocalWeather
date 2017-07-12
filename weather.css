@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    height: 95vh;
+}
+p {
+    margin: 0;
+}
+.wrap {
+    /*background-color: lightpink;*/
+    border: 2px solid white;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+.title {
+    /*background-color: lightgrey;*/
+    height: 30%;
+    position: relative;
+}
+.location {
+    background-color: lightgreen;
+    height: 20%;
+}
+.info {
+    background-color: lavender;
+    height: 20%;
+}
+.button {
+    background-color: lightsteelblue;
+    height: 20%;
+}
+.footer {
+    background-color: thistle;
+    height: 10%;
+}
+#title_text {
+    border-bottom: 5px solid lightpink;
+    height: 50%;
+    font-size: 4em;
+    font-style: italic;
+    position: relative;
+    top: 1em;
+    padding-top: 30px;
+    text-shadow: 2px 0 0 lightpink;
+    color: black;
+    box-sizing: border-box;
+}
