@@ -5,6 +5,8 @@ body {
 }
 p {
     margin: 0;
+    text-shadow: 1px 0 0 lightpink;
+    font-style: italic;
 }
 .wrap {
     /*background-color: lightpink;*/
@@ -20,24 +22,28 @@ p {
 }
 .location {
     background-color: lightgreen;
-    height: 20%;
+    height: 10%;
+    position: relative;
 }
 .info {
     background-color: lavender;
-    height: 20%;
+    height: 40%;
+    position: relative;
 }
 .button {
     background-color: lightsteelblue;
-    height: 20%;
+    height: 10%;
+    position: relative;
 }
 .footer {
     background-color: thistle;
     height: 10%;
+    position: relative;
 }
 #title_text {
     border-bottom: 5px solid lightpink;
     height: 50%;
-    font-size: 4em;
+    font-size: 4.5vw;
     font-style: italic;
     position: relative;
     top: 1em;
@@ -45,4 +51,17 @@ p {
     text-shadow: 2px 0 0 lightpink;
     color: black;
     box-sizing: border-box;
+}
+#location_text {
+    font-size: 1.7em;
+}
+#info_text {
+    font-size: 1.7em;
+}
+#footer_text {
+    font-size: 1.3em;
+    font-style: italic;
+    text-shadow: 2px 0 0 lightpink;
+    position: relative;
+    top: 23px;
 }
