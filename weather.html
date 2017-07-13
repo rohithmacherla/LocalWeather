@@ -10,12 +10,23 @@
 </head>
 <body onload="getLocation(); showPosition();">
     <div class="wrap">
-        <div class="title"><p id="title_text">Local Weather API</p></div>
-        <div class="location"><p id="location_text">Location://</p></div>
-        <div class="info"><p id="info_text">Temperature://</p></div>
-        <div class="symbols"><p id="symbol_text">Symbols</p></div>
-        <div class="button"><button id="toggle">Toggle Units</button></div>
-        <div class="footer"><p id="footer_text">Powered by the DarkSky API</p></div>
+        <div class="title">
+            <p id="title_text">Local Weather API</p>
+        </div>
+        <div class="location"><p id="location_text">Location://{Fetching weather data...}</p></div>
+        <div class="info"><p id="info_text">Temperature://{Fetching weather data...}</p></div>
+        <div class="symbols">
+            <img class ="icon" src="" alt="">
+            <img class ="icon" src="" alt="">
+            <img class ="icon" src="" alt="">
+            <img class ="icon" src="" alt="">
+            <img class ="icon" src="" alt="">
+            <img class ="icon" src="" alt="">
+            <img class ="icon" src="" alt="">
+            <img class ="icon" src="" alt="">
+            <p id="symbol_text">{Loading...}</p></div>
+        <div class="button"><button onclick="toggleTemp();" id="toggle">Toggle Units</button></div>
+        <div class="footer"><p id="footer_text">Powered by the OpenWeatherMap API</p></div>
     </div>
     <script src="weather.js"></script>
 </body>

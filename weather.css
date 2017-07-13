@@ -5,7 +5,7 @@ body {
 }
 p {
     margin: 0;
-    text-shadow: 1px 0 0 lightpink;
+    text-shadow: 1px 0 0 white;
     font-style: italic;
 }
 .wrap {
@@ -16,27 +16,34 @@ p {
     margin: 0 auto;
 }
 .title {
-    /*background-color: lightgrey;*/
+    background-color: #EDADC7;
     height: 30%;
     position: relative;
+    border-bottom: 5px solid white;
+    box-sizing: border-box;
 }
 .location {
-    /*background-color: lightgreen;*/
+    background-color: lightgreen;
     height: 10%;
     position: relative;
 }
 .info {
-    background-color: lavender;
+    background-color: aliceblue;
     height: 15%;
     position: relative;
 }
 .symbols {
-    background-color: lightgrey;
+    background-color: ##00CED1;
     height: 25%;
-    font-size: 1.5em;
+    font-size: 1.7em;
+    position: relative;
+}
+#symbol_text {
+    position: relative;
+    top: 70px;
 }
 .button {
-    /*background-color: lightsteelblue;*/
+    background-color: lightsteelblue;
     height: 10%;
     position: relative;
 }
@@ -46,22 +53,25 @@ p {
     position: relative;
 }
 #title_text {
-    border-bottom: 5px solid lightpink;
-    height: 50%;
-    font-size: 4.5vw;
+    font-size: 4em;
     font-style: italic;
     position: relative;
     top: 1em;
-    padding-top: 30px;
-    text-shadow: 2px 0 0 lightpink;
+    padding-top: 50px;
+    text-shadow: 2px 0 0 white;
     color: black;
     box-sizing: border-box;
 }
 #location_text {
     font-size: 1.7em;
+    margin: 0;
+    position: relative;
+    top: 20px;
 }
 #info_text {
     font-size: 1.7em;
+    position: relative;
+    top: 40px;
 }
 #toggle {
     padding: 1.3em;
@@ -70,6 +80,8 @@ p {
     color: black;
     opacity: .7;
     transition: .7s;
+    position: relative;
+    top: 13px;
 }
 #toggle:hover {
     background-color: black;
@@ -81,4 +93,8 @@ p {
     text-shadow: 2px 0 0 lightpink;
     position: relative;
     top: 23px;
+}
+.icon {
+    position: relative;
+    top: 65px;
 }
